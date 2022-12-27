@@ -3,6 +3,33 @@ body {
     color:rgb(255, 255, 255);
 }
 
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 14px;
+    text-decoration: none;
+}
+.cabecalho-texto{    
+    width: 1000px;
+    font-size: 28px;
+    text-decoration: none;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+    text-decoration: none;
+}
+.cabecalho-menu-item{
+    color: rgb(255, 255, 255);
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
 /*Efeito Scrool Reveal*/
 .BoasVindas, .BoasVindas2, .infojs, .infojs2, .infopy, .infopy2, .infoso, .LiWi, .IntroLi, .VanLi, .IntroWi, .VanWi, .Happy, .Criador, .contato, .Lingua, .SO, .CF,  .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12, .insta, .dc, .git, .devicon-linux-plain, .html, .css, .JavaScript, .div1, .div2,
 .doc{
